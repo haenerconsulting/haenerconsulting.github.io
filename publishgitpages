@@ -1,3 +1,3 @@
 #!/bin/sh
 git add _site
-jekyll build && git add _site && git commit -m "New build of site" && git subtree push --prefix=_site github master:gh-pages
+jekyll build && git add _site && git commit -m "New build of site" && git subtree push --prefix=_site github ssh://git@github.com/haenerconsulting/site.git gh-pages
