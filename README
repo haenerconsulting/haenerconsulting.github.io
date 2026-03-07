@@ -1,0 +1,5 @@
+On OsX use chruby: https://github.com/postmodern/chruby
+
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.3
